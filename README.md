@@ -1,7 +1,7 @@
-SQL Diagnostic Manager (MONyog) on Docker, based on Alpine
+SQL Diagnostic Manager (MONyog) on Docker.
 
 ```sh
-docker run -it
+docker run
   --name=monyog
   --hostname monyog
   -p 5555:5555
