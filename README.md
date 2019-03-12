@@ -1,7 +1,12 @@
-## SQL Diagnostic Manager (MONyog) on Docker
+SQL Diagnostic Manager (MONyog) on Docker, based on Alpine
 
 ```sh
-docker run -it --name=monyog -p 5555:5555 -v /your/monyog/data/dir:/monyog/MONyog/data fengtan/monyog
+docker run -it
+  --name=monyog
+  --hostname monyog
+  -p 5555:5555
+  -d
+  fengtan/monyog
 ```
 
 https://hub.docker.com/r/fengtan/monyog
