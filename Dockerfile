@@ -1,8 +1,8 @@
-FROM alpine:latest
+FROM centos:7
 
-RUN apk add \
-  wget \
-  unzip
+RUN yum -y install \
+  unzip \
+  wget
 
 RUN \
   mkdir /monyog && \
