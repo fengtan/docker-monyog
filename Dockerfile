@@ -1,5 +1,9 @@
 FROM alpine:latest
 
+RUN apk add \
+  wget \
+  unzip
+
 RUN \
   mkdir /monyog && \
   cd /monyog && \
